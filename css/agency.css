@@ -403,7 +403,8 @@ section h3.section-subheading {
     max-width: 400px;
     text-align: center;
     background-color: #fff;
-	height:95px
+	height:95px;
+	border-top:1px solid #f7f7f7;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
