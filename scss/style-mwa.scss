@@ -40,7 +40,7 @@ form input[type="submit"] {
     background-position: 0 2em;
     background-repeat: repeat-x;
     background-size: 4px 1px;
-    font-size: .75rem;
+    font-size: 1.875rem;
     @media screen and (min-width: $large-min) {
         font-size: 1.5rem;
         border-bottom: 1px solid currentColor;
@@ -50,7 +50,7 @@ form input[type="submit"] {
 a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: .75rem;
+    //font-size: .75rem;
     display: inline-block;
     font-family: "HelveticaNeue";
     &.underline {
@@ -125,6 +125,9 @@ h1, h2, h3, h4, a, p {
         font-size: 1.875rem;
         line-height: 1.4;
         -webkit-font-smoothing: antialiased;
+        &.underline {
+            background-position: 0 2.5625rem;
+        }
     }
 }
 

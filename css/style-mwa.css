@@ -28,7 +28,7 @@ form input[type="submit"] {
   background-position: 0 2em;
   background-repeat: repeat-x;
   background-size: 4px 1px;
-  font-size: .75rem; }
+  font-size: 1.875rem; }
   @media screen and (min-width: 48.0625rem) {
     form input[type="submit"] {
       font-size: 1.5rem;
@@ -38,7 +38,6 @@ form input[type="submit"] {
 a {
   text-transform: uppercase;
   text-decoration: none;
-  font-size: .75rem;
   display: inline-block;
   font-family: "HelveticaNeue"; }
   a.underline {
@@ -93,6 +92,8 @@ h1.heading, h2.heading, h3.heading, h4.heading, a.heading, p.heading {
   font-size: 1.875rem;
   line-height: 1.4;
   -webkit-font-smoothing: antialiased; }
+  h1.heading.underline, h2.heading.underline, h3.heading.underline, h4.heading.underline, a.heading.underline, p.heading.underline {
+    background-position: 0 2.5625rem; }
 
 .code-panel .heading, .code-panel .body-copy, .code-panel a, .code-panel form input[type="submit"] {
   color: #e7e6dd; }
