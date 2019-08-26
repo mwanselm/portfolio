@@ -91,7 +91,7 @@ h1, h2, h3, h4 {
 h1.heading, h2.heading, h3.heading, h4.heading, a.heading, p.heading {
   font-family: "HelveticaNeue";
   font-size: 1.875rem;
-  line-height: 1;
+  line-height: 1.4;
   -webkit-font-smoothing: antialiased; }
 
 .code-panel .heading, .code-panel .body-copy, .code-panel a, .code-panel form input[type="submit"] {
