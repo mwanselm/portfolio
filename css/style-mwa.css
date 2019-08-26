@@ -83,7 +83,8 @@ a {
       line-height: 1.4; } }
 
 h1, h2, h3, h4 {
-  font-weight: 100; }
+  font-weight: 100;
+  margin-top: 0; }
 
 h1.heading, h2.heading, h3.heading, h4.heading, a.heading, p.heading {
   font-family: "HelveticaNeue";
@@ -277,6 +278,12 @@ header {
     width: 82%;
     max-width: 50rem;
     text-align: center; }
+    @media screen and (min-width: 48.0625rem) and (max-height: 48.75rem) {
+      .slick-slide > img, .slick-slide .slide-content {
+        max-width: 34rem; } }
+    @media screen and (min-width: 48.0625rem) and (max-height: 39.375rem) {
+      .slick-slide > img, .slick-slide .slide-content {
+        max-width: 20rem; } }
   .slick-slide .intro-copy {
     text-align: center;
     margin: 0;

@@ -115,6 +115,7 @@ a {
 }
 h1, h2, h3, h4 {
     font-weight: 100;
+    margin-top: 0;
 }
 h1, h2, h3, h4, a, p {
     &.heading {
@@ -367,6 +368,12 @@ header {
         width: 82%;
         max-width: 50rem;
         text-align: center;
+        @media screen and (min-width: $large-min) and (max-height: 48.75rem) {
+            max-width: 34rem;
+        }
+        @media screen and (min-width: $large-min) and (max-height: 39.375rem) {
+            max-width: 20rem;
+        }
     }
     .intro-copy {
         text-align: center;
