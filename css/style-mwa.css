@@ -31,7 +31,9 @@ form input[type="submit"] {
   font-size: .75rem; }
   @media screen and (min-width: 48.0625rem) {
     form input[type="submit"] {
-      font-size: 1.5rem; } }
+      font-size: 1.5rem;
+      border-bottom: 1px solid currentColor;
+      background-image: none; } }
 
 a {
   text-transform: uppercase;

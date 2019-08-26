@@ -43,6 +43,8 @@ form input[type="submit"] {
     font-size: .75rem;
     @media screen and (min-width: $large-min) {
         font-size: 1.5rem;
+        border-bottom: 1px solid currentColor;
+        background-image: none;
     }
 }
 a {
