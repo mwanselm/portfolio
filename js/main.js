@@ -49,7 +49,7 @@ $(document).ready(function () {
     $('#but-wait-music').click(function (event) {
         event.preventDefault();
         $('.code-panel').removeClass('top').fadeOut();
-        $('.music-panel').addClass('top');
+        $('.music-panel').addClass('top').fadeIn();
         $('body').removeClass('code-fill').addClass('music-fill');
         $('.music-carousel').slick({
             autoplay: false,
@@ -63,7 +63,7 @@ $(document).ready(function () {
     $('#but-wait-code').click(function (event) {
         event.preventDefault();
         $('.music-panel').removeClass('top').fadeOut();
-        $('.code-panel').addClass('top');
+        $('.code-panel').addClass('top').fadeIn();
         $('body').removeClass('music-fill').addClass('code-fill');
         $('.code-carousel').slick({
             autoplay: false,
