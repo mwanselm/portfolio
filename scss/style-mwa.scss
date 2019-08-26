@@ -187,7 +187,7 @@ header {
     .code {
         flex: 50%;
         height: 100%;
-        transition: flex 1s ease .6s, background-color .4s ease;
+        transition: flex .8s ease, background-color .4s ease;
         box-sizing: border-box;
         z-index: 1;
         @media screen and (min-width: $large-min) {
