@@ -280,12 +280,13 @@ header {
     width: 82%;
     max-width: 50rem;
     text-align: center; }
-    @media screen and (min-width: 48.0625rem) and (max-height: 48.75rem) {
-      .slick-slide > img, .slick-slide .slide-content {
-        max-width: 34rem; } }
-    @media screen and (min-width: 48.0625rem) and (max-height: 39.375rem) {
-      .slick-slide > img, .slick-slide .slide-content {
-        max-width: 20rem; } }
+  @media screen and (min-width: 48.0625rem) and (max-height: 48.75rem) {
+    .slick-slide > img, .slick-slide .videoWrapper, .slick-slide .slide-content img {
+      max-width: 70%;
+      margin: 0 auto; } }
+  @media screen and (min-width: 48.0625rem) and (max-height: 39.375rem) {
+    .slick-slide > img, .slick-slide .videoWrapper, .slick-slide .slide-content img {
+      max-width: 40%; } }
   .slick-slide .intro-copy {
     text-align: center;
     margin: 0;

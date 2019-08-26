@@ -370,11 +370,14 @@ header {
         width: 82%;
         max-width: 50rem;
         text-align: center;
+    }
+    > img, .videoWrapper, .slide-content img {
         @media screen and (min-width: $large-min) and (max-height: 48.75rem) {
-            max-width: 34rem;
+            max-width: 70%;
+            margin: 0 auto;
         }
         @media screen and (min-width: $large-min) and (max-height: 39.375rem) {
-            max-width: 20rem;
+            max-width: 40%;
         }
     }
     .intro-copy {
