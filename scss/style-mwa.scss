@@ -102,7 +102,7 @@ a {
 h1, h2, h3, h4 {
     font-weight: 100;
 }
-h1, h2, h3, h4, a {
+h1, h2, h3, h4, a, p {
     &.heading {
         font-family: "HelveticaNeue";
         font-size: 1.875rem;
