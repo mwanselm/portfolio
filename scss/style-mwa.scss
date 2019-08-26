@@ -31,6 +31,20 @@ body {
 .times-font {
     font-family: "Times";
 }
+form input[type="submit"] {
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    line-height: 2;
+    background-image: linear-gradient(to right, currentColor 50%, transparent 50%);
+    background-position: 0 2em;
+    background-repeat: repeat-x;
+    background-size: 4px 1px;
+    font-size: .75rem;
+    @media screen and (min-width: $large-min) {
+        font-size: 1.5rem;
+    }
+}
 a {
     text-transform: uppercase;
     text-decoration: none;
@@ -112,13 +126,13 @@ h1, h2, h3, h4, a, p {
 }
 
 .code-panel {
-    .heading, .body-copy, a {
+    .heading, .body-copy, a, form input[type="submit"] {
         color: $peach;
     }
 }
 
 .music-panel {
-    .heading, .body-copy, a {
+    .heading, .body-copy, a, form input[type="submit"] {
         color: $midnight;
     }
 }

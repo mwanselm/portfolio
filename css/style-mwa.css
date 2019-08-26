@@ -19,6 +19,20 @@ body {
 .times-font {
   font-family: "Times"; }
 
+form input[type="submit"] {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  line-height: 2;
+  background-image: linear-gradient(to right, currentColor 50%, transparent 50%);
+  background-position: 0 2em;
+  background-repeat: repeat-x;
+  background-size: 4px 1px;
+  font-size: .75rem; }
+  @media screen and (min-width: 48.0625rem) {
+    form input[type="submit"] {
+      font-size: 1.5rem; } }
+
 a {
   text-transform: uppercase;
   text-decoration: none;
@@ -77,10 +91,10 @@ h1.heading, h2.heading, h3.heading, h4.heading, a.heading, p.heading {
   line-height: 1;
   -webkit-font-smoothing: antialiased; }
 
-.code-panel .heading, .code-panel .body-copy, .code-panel a {
+.code-panel .heading, .code-panel .body-copy, .code-panel a, .code-panel form input[type="submit"] {
   color: #e7e6dd; }
 
-.music-panel .heading, .music-panel .body-copy, .music-panel a {
+.music-panel .heading, .music-panel .body-copy, .music-panel a, .music-panel form input[type="submit"] {
   color: #191A26; }
 
 .link-copy {
