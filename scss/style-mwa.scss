@@ -208,6 +208,9 @@ header {
             .link-copy {
                 position: absolute;
                 bottom: 5vh;
+                @media screen and (min-width: $large-min) {
+                    bottom: 1vh;
+                }
             }
         }
     }
