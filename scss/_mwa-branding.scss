@@ -12,6 +12,10 @@
     src: url("../css/fonts/HelveticaNeue.woff") format('woff');
 }
 
+.cormorant {
+    font-family: 'Cormorant', serif;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     //overflow-y: hidden;
@@ -115,7 +119,8 @@ h1, h2, h3, h4 {
 }
 h1, h2, h3, h4, a, p {
     &.heading {
-        font-family: "HelveticaNeue";
+        // font-family: "HelveticaNeue";
+        font-family: 'Cormorant', serif;
         font-size: 1.875rem;
         line-height: 1.4;
         -webkit-font-smoothing: antialiased;
