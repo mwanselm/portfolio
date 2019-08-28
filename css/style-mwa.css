@@ -120,7 +120,6 @@ h1.heading, h2.heading, h3.heading, h4.heading, a.heading, p.heading {
   font-family: "Cormorant", serif;
   font-size: 1.875rem;
   line-height: 1.4;
-  -webkit-font-smoothing: antialiased;
 }
 h1.heading.underline, h2.heading.underline, h3.heading.underline, h4.heading.underline, a.heading.underline, p.heading.underline {
   background-position: 0 2.5625rem;

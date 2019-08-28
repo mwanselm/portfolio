@@ -124,7 +124,7 @@ h1, h2, h3, h4, a, p {
         font-family: 'Cormorant', serif;
         font-size: 1.875rem;
         line-height: 1.4;
-        -webkit-font-smoothing: antialiased;
+        //-webkit-font-smoothing: antialiased;
         &.underline {
             background-position: 0 2.5625rem;
         }
