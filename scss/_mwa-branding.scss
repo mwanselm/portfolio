@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "Favorit";
-    src: url("../css/fonts/Favorit-RegularFavorit_Regular.woff") format('woff');
+    src: url("../css/fonts/Favorit_Light.woff") format('woff');
 }
 @font-face {
     font-family: "HelveticaNeue";
@@ -50,7 +50,7 @@ a {
     text-decoration: none;
     //font-size: .75rem;
     display: inline-block;
-    font-family: "HelveticaNeue";
+    font-family: "Favorit";
     &.underline {
         line-height: 2;
         background-image: linear-gradient(to right, currentColor 50%, transparent 50%);
