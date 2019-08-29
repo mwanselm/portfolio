@@ -368,3 +368,8 @@ header {
     }
 }
 
+#page-shows {
+    &.music-fill .home-fill .music {
+        overflow: auto;
+    }
+}

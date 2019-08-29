@@ -456,4 +456,8 @@ header .logo a svg path {
   margin: 6rem auto 0;
 }
 
+#page-shows.music-fill .home-fill .music {
+  overflow: auto;
+}
+
 /*# sourceMappingURL=style-mwa.css.map */
