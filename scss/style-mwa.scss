@@ -264,8 +264,13 @@ header {
         .heading {
             margin-bottom: 1rem;
         }
-        img {
+        img, video {
             margin-bottom: 1rem;
+        }
+        video {
+            display: inline-block;
+            max-width: 100%;
+            width: 100%;
         }
         .work-links {
             a {

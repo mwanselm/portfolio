@@ -372,8 +372,13 @@ header .logo a svg path {
 .slick-slide .slide-content .heading {
   margin-bottom: 1rem;
 }
-.slick-slide .slide-content img {
+.slick-slide .slide-content img, .slick-slide .slide-content video {
   margin-bottom: 1rem;
+}
+.slick-slide .slide-content video {
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
 }
 .slick-slide .slide-content .work-links a:first-child {
   margin-right: 1rem;
