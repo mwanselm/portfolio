@@ -125,6 +125,11 @@ h1.heading .underline, h2.heading .underline, h3.heading .underline, h4.heading 
   background-position: 0 3.6875rem;
 }
 
+body {
+  transition: background-color 0.2s ease;
+  background-color: transparent;
+}
+
 .code-panel .heading, .code-panel .body-copy, .code-panel a, .code-panel form input[type=submit] {
   color: #e7e6dd;
 }
@@ -296,6 +301,9 @@ header .logo a svg path {
   opacity: 0;
 }
 
+.code-fill {
+  background-color: #191A26;
+}
 .code-fill .home-fill .intro-copy, .code-fill .home-fill a {
   color: #e7e6dd;
 }

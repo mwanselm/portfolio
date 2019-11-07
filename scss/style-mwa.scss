@@ -6,6 +6,10 @@ $large-min: 48.0625rem;
 
 @import 'mwa-branding';
 
+body {
+    transition: background-color .2s ease;
+    background-color: transparent;
+}
 .code-panel {
     .heading, .body-copy, a, form input[type="submit"] {
         color: $peach;
@@ -184,6 +188,7 @@ header {
     
 }
 .code-fill {
+    background-color: $midnight;
     .home-fill {
         .intro-copy, a {
             color: $peach;
