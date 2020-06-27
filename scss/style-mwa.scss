@@ -89,9 +89,6 @@ header {
         transition: flex .8s ease, background-color .4s ease;
         box-sizing: border-box;
         z-index: 1;
-        @media screen and (min-width: $large-min) {
-            padding-bottom: 1.6rem;
-        }
         &:hover {
             flex: 55%;
         }
@@ -253,6 +250,9 @@ header {
         width: 82%;
         max-width: 50rem;
         text-align: center;
+        @media screen and (max-height: $small-max) {
+            max-width: 35rem;
+        }
     }
     .intro-copy {
         text-align: center;
@@ -266,6 +266,7 @@ header {
         }
     }
     .slide-content {
+
         .heading {
             margin-bottom: 1rem;
         }

@@ -209,12 +209,6 @@ header .logo a svg path {
   box-sizing: border-box;
   z-index: 1;
 }
-@media screen and (min-width: 48.0625rem) {
-  .home-fill .music,
-.home-fill .code {
-    padding-bottom: 1.6rem;
-  }
-}
 .home-fill .music:hover,
 .home-fill .code:hover {
   flex: 55%;
@@ -367,6 +361,11 @@ header .logo a svg path {
   width: 82%;
   max-width: 50rem;
   text-align: center;
+}
+@media screen and (max-height: 48rem) {
+  .slick-slide > img, .slick-slide .slide-content {
+    max-width: 35rem;
+  }
 }
 .slick-slide .intro-copy {
   text-align: center;
