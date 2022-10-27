@@ -437,7 +437,6 @@ header .logo a svg path {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
-  padding-top: 25px;
   height: 0;
   margin-bottom: 1rem;
 }
@@ -451,6 +450,15 @@ header .logo a svg path {
 }
 
 #shows .intro-copy {
+  position: initial;
+  transform: none;
+  margin: 6rem auto 0;
+}
+
+#videos {
+  overflow: auto;
+}
+#videos .intro-copy {
   position: initial;
   transform: none;
   margin: 6rem auto 0;
