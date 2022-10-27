@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: "Favorit";
-  src: url("../css/fonts/Favorit_Light.woff") format("woff");
+  src: url("../css/fonts/Favorit-RegularFavorit_Regular.woff") format("woff");
 }
 @font-face {
   font-family: "HelveticaNeue";
@@ -53,7 +53,7 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  font-family: "Favorit";
+  font-family: "HelveticaNeue";
 }
 a.underline {
   line-height: 2;
@@ -123,11 +123,6 @@ h1.heading, h2.heading, h3.heading, h4.heading, a.heading, p.heading {
 }
 h1.heading .underline, h2.heading .underline, h3.heading .underline, h4.heading .underline, a.heading .underline, p.heading .underline {
   background-position: 0 3.6875rem;
-}
-
-body {
-  transition: background-color 0.2s ease;
-  background-color: transparent;
 }
 
 .code-panel .heading, .code-panel .body-copy, .code-panel a, .code-panel form input[type=submit] {
@@ -208,6 +203,12 @@ header .logo a svg path {
   transition: flex 0.8s ease, background-color 0.4s ease;
   box-sizing: border-box;
   z-index: 1;
+}
+@media screen and (min-width: 48.0625rem) {
+  .home-fill .music,
+.home-fill .code {
+    padding-bottom: 1.6rem;
+  }
 }
 .home-fill .music:hover,
 .home-fill .code:hover {
@@ -295,9 +296,6 @@ header .logo a svg path {
   opacity: 0;
 }
 
-.code-fill {
-  background-color: #191A26;
-}
 .code-fill .home-fill .intro-copy, .code-fill .home-fill a {
   color: #e7e6dd;
 }
@@ -362,11 +360,6 @@ header .logo a svg path {
   max-width: 50rem;
   text-align: center;
 }
-@media screen and (max-height: 48rem) {
-  .slick-slide > img, .slick-slide .slide-content {
-    max-width: 35rem;
-  }
-}
 .slick-slide .intro-copy {
   text-align: center;
   margin: 0;
@@ -379,13 +372,8 @@ header .logo a svg path {
 .slick-slide .slide-content .heading {
   margin-bottom: 1rem;
 }
-.slick-slide .slide-content img, .slick-slide .slide-content video {
+.slick-slide .slide-content img {
   margin-bottom: 1rem;
-}
-.slick-slide .slide-content video {
-  display: inline-block;
-  max-width: 100%;
-  width: 100%;
 }
 .slick-slide .slide-content .work-links a:first-child {
   margin-right: 1rem;
@@ -449,7 +437,6 @@ header .logo a svg path {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
-  padding-top: 25px;
   height: 0;
   margin-bottom: 1rem;
 }
@@ -468,8 +455,13 @@ header .logo a svg path {
   margin: 6rem auto 0;
 }
 
-#page-shows.music-fill .home-fill .music {
+#videos {
   overflow: auto;
+}
+#videos .intro-copy {
+  position: initial;
+  transform: none;
+  margin: 6rem auto 0;
 }
 
 /*# sourceMappingURL=style-mwa.css.map */

@@ -6,10 +6,6 @@ $large-min: 48.0625rem;
 
 @import 'mwa-branding';
 
-body {
-    transition: background-color .2s ease;
-    background-color: transparent;
-}
 .code-panel {
     .heading, .body-copy, a, form input[type="submit"] {
         color: $peach;
@@ -89,6 +85,9 @@ header {
         transition: flex .8s ease, background-color .4s ease;
         box-sizing: border-box;
         z-index: 1;
+        @media screen and (min-width: $large-min) {
+            padding-bottom: 1.6rem;
+        }
         &:hover {
             flex: 55%;
         }
@@ -185,7 +184,6 @@ header {
     
 }
 .code-fill {
-    background-color: $midnight;
     .home-fill {
         .intro-copy, a {
             color: $peach;
@@ -250,9 +248,6 @@ header {
         width: 82%;
         max-width: 50rem;
         text-align: center;
-        @media screen and (max-height: $small-max) {
-            max-width: 35rem;
-        }
     }
     .intro-copy {
         text-align: center;
@@ -266,17 +261,11 @@ header {
         }
     }
     .slide-content {
-
         .heading {
             margin-bottom: 1rem;
         }
-        img, video {
+        img {
             margin-bottom: 1rem;
-        }
-        video {
-            display: inline-block;
-            max-width: 100%;
-            width: 100%;
         }
         .work-links {
             a {
@@ -359,7 +348,7 @@ header {
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
+	//padding-top: 25px;
     height: 0;
     margin-bottom: 1rem;
 }
@@ -378,9 +367,11 @@ header {
         margin: 6rem auto 0;
     }
 }
-
-#page-shows {
-    &.music-fill .home-fill .music {
-        overflow: auto;
+#videos {
+    overflow: auto;
+    .intro-copy {
+        position: initial;
+        transform: none;
+        margin: 6rem auto 0;
     }
 }
