@@ -232,6 +232,32 @@ header {
     transform: translate(-50%, -50%);
     width: 82%;
     max-width: 50rem;
+    text-align: left;
+    h3 {
+        font-size: 2.5rem;
+    }
+    img {
+        width: 9px;
+        max-height: 10px;
+        display: inline-block;
+        margin: 0 .125rem;
+        &#writing {
+            width: 5px;
+        }
+    }
+    ul {
+        margin: 0 0 1.8rem 0;
+        padding: 0;
+        li  {
+            margin-bottom: .75rem;
+            a {
+                font-size: 1.3rem;
+            }
+        }
+    }
+    p, .small {
+        text-align: left;
+    }
 }
 .mwa-carousel,
 .slick-list,
@@ -250,7 +276,7 @@ header {
         text-align: center;
     }
     .intro-copy {
-        text-align: center;
+        //text-align: center;
         margin: 0;
         opacity: 0;
         transition: opacity .4s ease;
@@ -282,12 +308,15 @@ header {
 .slick-prev, .slick-next {
     //display: none;
     top: initial;
-    bottom: 2vh;
+    bottom: 13vh;
     svg {
         width: 60%;
         @media screen and (min-width: $large-min) {
             width: 100%;
         }
+    }
+    @media screen and (min-width: $large-min) {
+        bottom: 2vh;
     }
 }
 

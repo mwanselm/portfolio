@@ -30,6 +30,17 @@ body {
   font-family: "Times";
 }
 
+sup {
+  top: -0.7em;
+  font-size: 60%;
+  line-height: 1;
+}
+
+.small {
+  font-size: 0.625rem;
+  line-height: 1.2;
+}
+
 form input[type=submit] {
   outline: 0;
   border: 0;
@@ -347,6 +358,32 @@ header .logo a svg path {
   transform: translate(-50%, -50%);
   width: 82%;
   max-width: 50rem;
+  text-align: left;
+}
+.intro-copy h3 {
+  font-size: 2.5rem;
+}
+.intro-copy img {
+  width: 9px;
+  max-height: 10px;
+  display: inline-block;
+  margin: 0 0.125rem;
+}
+.intro-copy img#writing {
+  width: 5px;
+}
+.intro-copy ul {
+  margin: 0 0 1.8rem 0;
+  padding: 0;
+}
+.intro-copy ul li {
+  margin-bottom: 0.75rem;
+}
+.intro-copy ul li a {
+  font-size: 1.3rem;
+}
+.intro-copy p, .intro-copy .small {
+  text-align: left;
 }
 
 .mwa-carousel,
@@ -368,7 +405,6 @@ header .logo a svg path {
   text-align: center;
 }
 .slick-slide .intro-copy {
-  text-align: center;
   margin: 0;
   opacity: 0;
   transition: opacity 0.4s ease;
@@ -391,7 +427,7 @@ header .logo a svg path {
 
 .slick-prev, .slick-next {
   top: initial;
-  bottom: 2vh;
+  bottom: 13vh;
 }
 .slick-prev svg, .slick-next svg {
   width: 60%;
@@ -399,6 +435,11 @@ header .logo a svg path {
 @media screen and (min-width: 48.0625rem) {
   .slick-prev svg, .slick-next svg {
     width: 100%;
+  }
+}
+@media screen and (min-width: 48.0625rem) {
+  .slick-prev, .slick-next {
+    bottom: 2vh;
   }
 }
 

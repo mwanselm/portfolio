@@ -29,6 +29,15 @@ body {
 .times-font {
     font-family: "Times";
 }
+sup {
+    top: -0.7em;
+    font-size: 60%;
+    line-height: 1;
+}
+.small {
+    font-size: .625rem;
+    line-height: 1.2;
+}
 form input[type="submit"] {
     outline: 0;
     border: 0;
