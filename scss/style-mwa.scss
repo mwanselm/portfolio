@@ -238,11 +238,17 @@ header {
     }
     img {
         width: 9px;
-        max-height: 10px;
+        max-height: 12px;
         display: inline-block;
         margin: 0 .125rem;
         &#writing {
-            width: 5px;
+            width: 4px;
+        }
+        &.trombone {
+            width: 10px;
+        }
+        &.acoustic {
+            max-height: 12px;
         }
     }
     ul {

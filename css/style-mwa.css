@@ -365,12 +365,18 @@ header .logo a svg path {
 }
 .intro-copy img {
   width: 9px;
-  max-height: 10px;
+  max-height: 12px;
   display: inline-block;
   margin: 0 0.125rem;
 }
 .intro-copy img#writing {
-  width: 5px;
+  width: 4px;
+}
+.intro-copy img.trombone {
+  width: 10px;
+}
+.intro-copy img.acoustic {
+  max-height: 12px;
 }
 .intro-copy ul {
   margin: 0 0 1.8rem 0;
