@@ -78,6 +78,20 @@ $(document).ready(function () {
 });
 
 if(window.location.href.indexOf("#music") > -1) {
-    document.getElementById('music-link').click();
+    // document.getElementById('music-link').click();
+    
     console.log('URL');
+
+
+    var targetNode = document.querySelector('#music-link');
+
+    triggerMouseEvent(targetNode, "mousedown");
+    triggerMouseEvent(targetNode, "mouseup");
+    triggerMouseEvent(targetNode, "click");
+
+    function triggerMouseEvent(node, eventType) {
+    var clickEvent = document.createEvent('MouseEvents');
+    clickEvent.initEvent(eventType, true, true);
+    node.dispatchEvent(clickEvent);
+    }
 }

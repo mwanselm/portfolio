@@ -364,15 +364,12 @@ header .logo a svg path {
   font-size: 2.5rem;
 }
 .intro-copy img {
-  width: 9px;
-  max-height: 12px;
+  width: 11px;
+  max-height: 15px;
   display: inline-block;
 }
 .intro-copy img#writing {
   width: 4px;
-}
-.intro-copy img.trombone {
-  width: 10px;
 }
 .intro-copy img.acoustic {
   max-height: 12px;

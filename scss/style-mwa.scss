@@ -237,16 +237,16 @@ header {
         font-size: 2.5rem;
     }
     img {
-        width: 9px;
-        max-height: 12px;
+        width: 11px;
+        max-height: 15px;
         display: inline-block;
         // margin: 0 .125rem;
         &#writing {
             width: 4px;
         }
-        &.trombone {
-            width: 10px;
-        }
+        // &.trombone {
+        //     width: 10px;
+        // }
         &.acoustic {
             max-height: 12px;
         }
