@@ -365,7 +365,7 @@ header .logo a svg path {
 }
 .intro-copy img {
   width: 11px;
-  max-height: 15px;
+  max-height: 12px;
   display: inline-block;
 }
 .intro-copy img#writing {
@@ -382,7 +382,7 @@ header .logo a svg path {
   margin-bottom: 0.75rem;
 }
 .intro-copy ul li a {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .intro-copy ul li ul, .intro-copy ul li ul li {
   display: inline-block;
