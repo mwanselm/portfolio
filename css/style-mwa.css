@@ -49,47 +49,49 @@ form input[type=submit] {
   }
 }
 
-a {
+.work-links a {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
   font-family: "Favorit";
 }
-a.underline {
+.work-links a.underline {
   line-height: 2;
   background-image: linear-gradient(to right, currentColor 50%, transparent 50%);
   background-position: 0 2em;
   background-repeat: repeat-x;
   background-size: 4px 1px;
 }
-a.underline:focus {
+.work-links a.underline:focus {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   outline: 0;
 }
-a.underline svg, a.underline span {
+.work-links a.underline svg, .work-links a.underline span {
   display: inline-block;
   vertical-align: middle;
 }
-a.underline svg {
+.work-links a.underline svg, .work-links a.underline img {
   margin-right: 0.4rem;
   width: 15px;
   height: auto;
+  display: inline-block;
+  margin-bottom: 0;
 }
-a.underline span {
+.work-links a.underline span {
   background-repeat: no-repeat;
   background-position: left center;
 }
-a.underline.peach svg g, a.underline.peach svg g path {
+.work-links a.underline.peach svg g, .work-links a.underline.peach svg g path {
   stroke: #e7e6dd;
 }
-a.underline.dark svg g, a.underline.dark svg g path {
+.work-links a.underline.dark svg g, .work-links a.underline.dark svg g path {
   stroke: #191A26;
 }
 @media screen and (min-width: 48.0625rem) {
-  a {
+  .work-links a {
     font-size: 1.5rem;
   }
-  a.underline {
+  .work-links a.underline {
     background-image: none;
     border-bottom: 1px solid currentColor;
   }
