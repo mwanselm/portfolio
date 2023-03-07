@@ -264,8 +264,11 @@ header {
         .heading {
             margin-bottom: 1rem;
         }
-        img {
+        img, video {
             margin-bottom: 1rem;
+        }
+        video {
+            max-width: 100%;
         }
         .work-links {
             a {

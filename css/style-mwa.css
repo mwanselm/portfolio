@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: "Favorit";
-  src: url("../css/fonts/Favorit-RegularFavorit_Regular.woff") format("woff");
+  src: url("../css/fonts/Favorit_Light.woff") format("woff");
 }
 @font-face {
   font-family: "HelveticaNeue";
@@ -53,7 +53,7 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  font-family: "HelveticaNeue";
+  font-family: "Favorit";
 }
 a.underline {
   line-height: 2;
@@ -372,8 +372,11 @@ header .logo a svg path {
 .slick-slide .slide-content .heading {
   margin-bottom: 1rem;
 }
-.slick-slide .slide-content img {
+.slick-slide .slide-content img, .slick-slide .slide-content video {
   margin-bottom: 1rem;
+}
+.slick-slide .slide-content video {
+  max-width: 100%;
 }
 .slick-slide .slide-content .work-links a:first-child {
   margin-right: 1rem;
