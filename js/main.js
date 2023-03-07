@@ -76,3 +76,8 @@ $(document).ready(function () {
     });
     
 });
+
+if(window.location.href.indexOf("#music") > -1) {
+    document.getElementById('music-link').click();
+    console.log('URL');
+}
