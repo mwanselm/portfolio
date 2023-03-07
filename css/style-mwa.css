@@ -390,6 +390,9 @@ header .logo a svg path {
 .intro-copy ul li ul, .intro-copy ul li ul li {
   display: inline-block;
 }
+.intro-copy ul li ul {
+  margin-bottom: 0;
+}
 .intro-copy ul li ul li {
   margin: 0 0 0 0.15rem;
 }
