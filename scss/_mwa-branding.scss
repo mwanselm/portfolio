@@ -105,7 +105,7 @@ form input[type="submit"] {
 }
 
 .body-copy, p {
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     // font-family: "Times";
     font-family: 'Cormorant', serif;
     font-weight: 100;
@@ -126,11 +126,14 @@ h1, h2, h3, h4, a, p {
     &.heading {
         // font-family: "HelveticaNeue";
         font-family: 'Cormorant', serif;
-        font-size: 1.875rem;
+        font-size: 1.5rem;
         line-height: 1.4;
         //-webkit-font-smoothing: antialiased;
         .underline {
             background-position: 0 3.6875rem;
+        }
+        @media screen and (min-width: $large-min) {
+            font-size: 1.875rem;
         }
     }
 }
