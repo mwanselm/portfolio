@@ -240,7 +240,7 @@ header {
         width: 9px;
         max-height: 12px;
         display: inline-block;
-        margin: 0 .125rem;
+        // margin: 0 .125rem;
         &#writing {
             width: 4px;
         }
@@ -260,9 +260,16 @@ header {
                 font-size: 1.2rem;
                 
             }
-            img {
-                margin: 0 0 0 .15rem;
+            ul, ul li {
+                display: inline-block;
             }
+            ul {
+                li {
+                    
+                    margin: 0 0 0 .15rem;
+                }
+            }
+
         }
     }
     p, .small {
