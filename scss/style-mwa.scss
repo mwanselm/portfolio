@@ -5,7 +5,14 @@ $small-max: 48rem;
 $large-min: 48.0625rem;
 
 @import 'mwa-branding';
-
+ul.reset,
+ul.reset li,
+ul.reset ul li {
+   margin:0;
+   padding: 0;
+   text-indent: 0;
+   list-style-type: 0;
+}
 .code-panel {
     .heading, .body-copy, a, form input[type="submit"] {
         color: $peach;
@@ -241,9 +248,9 @@ header {
         max-height: 12px;
         display: inline-block;
         // margin: 0 .125rem;
-        &#writing {
-            width: 4px;
-        }
+        // &#writing {
+        //     width: 4px;
+        // }
         // &.trombone {
         //     width: 10px;
         // }
@@ -273,8 +280,11 @@ header {
 
         }
     }
-    p, .small {
+    p, .footnotes {
         text-align: left;
+    }
+    .footnotes li {
+        display: inline-block;
     }
 }
 .mwa-carousel,

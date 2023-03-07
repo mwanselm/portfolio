@@ -36,7 +36,7 @@ sup {
   line-height: 1;
 }
 
-.small {
+.footnotes {
   font-size: 0.625rem;
   line-height: 1.2;
 }
@@ -141,6 +141,15 @@ h1.heading .underline, h2.heading .underline, h3.heading .underline, h4.heading 
   h1.heading, h2.heading, h3.heading, h4.heading, a.heading, p.heading {
     font-size: 1.875rem;
   }
+}
+
+ul.reset,
+ul.reset li,
+ul.reset ul li {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: 0;
 }
 
 .code-panel .heading, .code-panel .body-copy, .code-panel a, .code-panel form input[type=submit] {
@@ -368,9 +377,6 @@ header .logo a svg path {
   max-height: 12px;
   display: inline-block;
 }
-.intro-copy img#writing {
-  width: 4px;
-}
 .intro-copy img.acoustic {
   max-height: 12px;
 }
@@ -393,8 +399,11 @@ header .logo a svg path {
 .intro-copy ul li ul li {
   margin: 0 0 0 0.15rem;
 }
-.intro-copy p, .intro-copy .small {
+.intro-copy p, .intro-copy .footnotes {
   text-align: left;
+}
+.intro-copy .footnotes li {
+  display: inline-block;
 }
 
 .mwa-carousel,
