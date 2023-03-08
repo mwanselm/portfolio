@@ -255,7 +255,7 @@ header .logo a svg path {
 .home-fill .music > a .link-copy,
 .home-fill .code > a .link-copy {
   position: absolute;
-  bottom: 15vh;
+  bottom: 100px;
 }
 @media screen and (min-width: 48.0625rem) {
   .home-fill .music > a .link-copy,
@@ -365,7 +365,7 @@ header .logo a svg path {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 82%;
+  width: 89%;
   max-width: 50rem;
   text-align: left;
 }
@@ -447,7 +447,7 @@ header .logo a svg path {
 
 .slick-prev, .slick-next {
   top: initial;
-  bottom: 10vh;
+  bottom: 83px;
 }
 .slick-prev svg, .slick-next svg {
   width: 60%;

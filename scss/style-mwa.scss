@@ -109,7 +109,7 @@ header {
             width: 100%;
             .link-copy {
                 position: absolute;
-                bottom: 15vh;
+                bottom: 100px;
                 @media screen and (min-width: $large-min) {
                     bottom: 1vh;
                 }
@@ -237,7 +237,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 82%;
+    width: 89%;
     max-width: 50rem;
     text-align: left;
     h3 {
@@ -336,7 +336,7 @@ header {
 .slick-prev, .slick-next {
     //display: none;
     top: initial;
-    bottom: 10vh;
+    bottom: 83px;
     svg {
         width: 60%;
         @media screen and (min-width: $large-min) {
