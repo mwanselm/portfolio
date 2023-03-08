@@ -447,7 +447,7 @@ header .logo a svg path {
 
 .slick-prev, .slick-next {
   top: initial;
-  bottom: 13vh;
+  bottom: 10vh;
 }
 .slick-prev svg, .slick-next svg {
   width: 60%;
